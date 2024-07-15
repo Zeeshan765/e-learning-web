@@ -1,11 +1,5 @@
 import {
   Degree,
-  BillingImage,
-  CourseCuilder,
-  Document,
-  Forum,
-  JobBoard,
-  Quizz,
   Setting,
   Team,
 } from "../images";
@@ -25,55 +19,15 @@ export const CardData = [
     isNew: false,
     src: Team,
   },
+
   {
     id: 3,
-    title: "Job Board",
-    description: "Try our new Job board. Here you can post a Job in Minutes.",
-    isNew: false,
-    src: JobBoard,
-  },
-  {
-    id: 4,
-    title: "Quizzes ",
-    description: "Check on your team's knowledge and skills",
-    isNew: true,
-    src: Quizz,
-  },
-  {
-    id: 5,
-    title: "Forum",
-    description: "Get the latest goings on for your company",
-    isNew: false,
-    src: Forum,
-  },
-  {
-    id: 6,
-    title: "Documents",
-    description: "Share documents with your team members",
-    isNew: false,
-    src: Document,
-  },
-  {
-    id: 7,
-    title: "Course Builder",
-    description: "Create online courses for your team or to sell",
-    isNew: false,
-    src: CourseCuilder,
-  },
-  {
-    id: 8,
     title: "Company Settings",
     description: "Manage admins and update your company details",
     isNew: false,
     src: Setting,
   },
-  {
-    id: 9,
-    title: "Company Billing",
-    description: "Update payment details and view billing history",
-    isNew: false,
-    src: BillingImage,
-  },
+
 ];
 
 export const myLearning = [
